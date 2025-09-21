@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+           <title>About</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     </head>
+     <body>
+         <main>
+            <article>
+                  <header>
+                         <h1>Register for TechCon 2024</h1>     
+                         <nav> 
+                              <ul>
+                                   <li><a href="index.html">Home Page</a></li>
+                                   <li><a href="about.html">About</a></li>
+                                   <li><a href="schedule.html">schedule</a></li>
+                                   <li><a href="contact.html">Contact</a></li>
+                              </ul>
+                        </nav>
+                   </header>
+                       <main>
+                            <form action="/submit_registration" method="post">
+                              <!-- Full Name -->
+                              <label for="fullName">Full Name:</label><br>
+                              <input type="text" id="fullName" name="fullName" required><br><br>
+
+                              <!-- Email -->
+                              <label for="email">Email Address:</label><br>
+                              <input type="email" id="email" name="email" required><br><br>
+
+                              <!-- Password -->
+                              <label for="password">Password:</label><br>
+                              <input type="password" id="password" name="password" required><br><br>
+
+                              <!-- Confirm Password -->
+                              <label for="confirmPassword">Confirm Password:</label><br>
+                              <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
+
+                              <!-- Terms and Conditions -->
+                              <input type="checkbox" id="terms" name="terms" required>
+                              <label for="terms">I agree to the <a href="#">terms and conditions</a>.</label><br><br>
+
+                              <!-- Submit Button -->
+                              <button type="submit">Register Now</button>
+                            </form>
+
+                       </main>
+            <footer>
+                   <p> &copy; TechCon2025 </p>
+            </footer>
+      </body>
+</html> 
+
